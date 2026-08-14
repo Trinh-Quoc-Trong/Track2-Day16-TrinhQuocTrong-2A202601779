@@ -1,0 +1,19 @@
+{
+    "dataset_name": "Credit Card Fraud Detection",
+    "total_samples": 284807,
+    "features_count": 30,
+    "data_load_time_sec": 2.7741,
+    "training_time_sec": 1.7046,
+    "best_iteration": 1,
+    "metrics": {
+        "auc_roc": 0.951654,
+        "accuracy": 0.998947,
+        "f1_score": 0.727273,
+        "precision": 0.655738,
+        "recall": 0.816327
+    },
+    "inference_benchmark": {
+        "latency_1_row_ms": 1.2295,
+        "throughput_1000_rows_per_sec": 679583.29
+    }
+}
